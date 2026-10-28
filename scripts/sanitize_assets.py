@@ -42,6 +42,10 @@ for color in ("azul", "roja"):
     silhouette = np.zeros(m.shape, "uint8")
     cv2.drawContours(silhouette, [max(contours, key=cv2.contourArea)], -1, 255, -1)
     silhouette = cv2.GaussianBlur(silhouette, (5, 5), .7)
+    # Checkerboard painted OUTSIDE the tray has neutral grey/white pixels.
+    # Remove them without cutting into blue or red molded plastic highlights.
+    neutral = (c.max(axis=2)-c.min(axis=2)<28) & (c.min(axis=2)>148)
+    silhouette[neutral] = 0
     rgba[:, :, 3] = silhouette
     save(name, rgba)
 
