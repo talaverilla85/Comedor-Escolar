@@ -1,0 +1,49 @@
+name: Detectar PDF de menús oficiales
+on:
+  schedule:
+    - cron: '15 7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar ventana mensual
+        id: ventana
+        run: |
+          day=$(TZ=Atlantic/Canary date +%d)
+          weekday=$(TZ=Atlantic/Canary date +%u)
+          if [ "$day" -ge 25 ] || [ "$day" -le 7 ] || [ "$weekday" -eq 1 ] || [ "${{ github.event_name }}" = 'workflow_dispatch' ]; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'run=false' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.ventana.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias del monitor
+        if: steps.ventana.outputs.run == 'true'
+        run: pip install requests beautifulsoup4
+      - name: Buscar y archivar PDF
+        if: steps.ventana.outputs.run == 'true'
+        id: scan
+        run: python scripts/monitor_official.py
+      - name: Guardar los PDF originales sin publicar menús no validados
+        if: steps.scan.outputs.new_count != '0' && steps.scan.outputs.new_count != ''
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/official-documents.json pdf-oficiales/
+          git commit -m 'docs: archivar nuevos menús oficiales'
+          git push
+      - name: Abrir aviso para revisar los nuevos PDF
+        if: steps.scan.outputs.new_count != '0' && steps.scan.outputs.new_count != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MONTHS: ${{ steps.scan.outputs.new_months }}
+        run: |
+          gh issue create --title "Revisar PDF nuevo de comedor: $MONTHS" --body "Se han detectado menús escolares oficiales nuevos para $MONTHS. Revisa data/official-documents.json y los PDF archivados en pdf-oficiales/. Valida fechas, tipos de menú, alérgenos y nutrición ANTES de actualizar los datos públicos de Mi Bandeja."
