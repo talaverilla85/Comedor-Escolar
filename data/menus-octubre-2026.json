@@ -1,0 +1,7300 @@
+{
+  "school": "CEIP Veinte de Enero",
+  "provider": "ALBI Canarias",
+  "month": "2026-10",
+  "source": "MENU-OCTUBRE-VEINTE-DE-ENERO.pdf",
+  "menuTypes": [
+    {
+      "id": "basal",
+      "label": "Menú basal",
+      "description": "Menú ordinario",
+      "page": 1,
+      "kind": "normal"
+    },
+    {
+      "id": "sin-pescado",
+      "label": "Sin pescado",
+      "description": "Adaptación sin pescado",
+      "page": 2,
+      "kind": "allergy"
+    },
+    {
+      "id": "sin-cerdo",
+      "label": "Sin cerdo",
+      "description": "Adaptación sin cerdo",
+      "page": 3,
+      "kind": "preference"
+    },
+    {
+      "id": "sin-frutos-secos",
+      "label": "Sin frutos secos",
+      "description": "Adaptación por frutos secos",
+      "page": 4,
+      "kind": "allergy"
+    },
+    {
+      "id": "sin-lacteos",
+      "label": "Sin lácteos / PLV",
+      "description": "Sin proteína de leche de vaca",
+      "page": 5,
+      "kind": "allergy"
+    },
+    {
+      "id": "sin-pescado-marisco",
+      "label": "Sin pescado ni marisco",
+      "description": "Adaptación sin pescado ni marisco",
+      "page": 6,
+      "kind": "allergy"
+    },
+    {
+      "id": "sin-huevo",
+      "label": "Sin huevo",
+      "description": "Adaptación sin huevo",
+      "page": 7,
+      "kind": "allergy"
+    },
+    {
+      "id": "sin-gluten",
+      "label": "Sin gluten",
+      "description": "Adaptación sin gluten",
+      "page": 8,
+      "kind": "allergy"
+    },
+    {
+      "id": "sin-gluten-lacteos-huevo",
+      "label": "Sin gluten, lácteos ni huevo",
+      "description": "Adaptación combinada",
+      "page": 9,
+      "kind": "allergy"
+    },
+    {
+      "id": "sin-lacteos-marisco",
+      "label": "Sin lácteos, moluscos ni crustáceos",
+      "description": "Adaptación combinada",
+      "page": 10,
+      "kind": "allergy"
+    }
+  ],
+  "closedDates": [
+    "2026-10-12"
+  ],
+  "days": {
+    "2026-10-05": {
+      "basal": {
+        "first": {
+          "name": "Lentejas compuestas con arroz integral",
+          "allergens": [
+            1,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tacos de atún en adobo con ensalada",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 633,
+          "protein": 32,
+          "carbs": 51,
+          "fat": 31
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Lentejas compuestas con arroz integral",
+          "allergens": [
+            1,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tacos de pavo al horno",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 502,
+          "protein": 44,
+          "carbs": 51,
+          "fat": 11
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Lentejas compuestas con arroz integral",
+          "allergens": [
+            1,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tacos de atún en adobo",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 633,
+          "protein": 32,
+          "carbs": 51,
+          "fat": 31
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Lentejas compuestas con arroz integral",
+          "allergens": [
+            1,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tacos de atún en adobo",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 633,
+          "protein": 32,
+          "carbs": 51,
+          "fat": 31
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Lentejas compuestas con arroz integral",
+          "allergens": [
+            1,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tacos de atún en adobo",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 633,
+          "protein": 32,
+          "carbs": 51,
+          "fat": 31
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Lentejas compuestas con arroz integral",
+          "allergens": [
+            1,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tacos de pavo al horno",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 502,
+          "protein": 44,
+          "carbs": 51,
+          "fat": 11
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Lentejas compuestas con arroz integral",
+          "allergens": [
+            1,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tacos de atún en adobo",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 633,
+          "protein": 32,
+          "carbs": 51,
+          "fat": 31
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Verduras compuestas con arroz integral",
+          "allergens": []
+        },
+        "second": {
+          "name": "Tacos de atún en adobo",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 583,
+          "protein": 25,
+          "carbs": 43,
+          "fat": 33
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Verduras compuestas con arroz integral",
+          "allergens": []
+        },
+        "second": {
+          "name": "Tacos de atún en adobo",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 583,
+          "protein": 25,
+          "carbs": 43,
+          "fat": 33
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Lentejas compuestas con arroz integral",
+          "allergens": [
+            1,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tacos de atún en adobo",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 633,
+          "protein": 32,
+          "carbs": 51,
+          "fat": 31
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-06": {
+      "basal": {
+        "first": {
+          "name": "Crema de zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Macarrones con salsa aurora y bacon",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 459,
+          "protein": 11,
+          "carbs": 66,
+          "fat": 15
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Crema de zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con salsa aurora",
+          "allergens": [
+            1,
+            3,
+            6,
+            7,
+            10
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 459,
+          "protein": 11,
+          "carbs": 66,
+          "fat": 15
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Crema de zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con salsa aurora",
+          "allergens": [
+            1,
+            3,
+            6,
+            7,
+            10
+          ]
+        },
+        "side": {
+          "name": "Sin bacon",
+          "allergens": []
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 459,
+          "protein": 11,
+          "carbs": 66,
+          "fat": 15
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Crema de zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con salsa aurora",
+          "allergens": [
+            1,
+            3,
+            6,
+            7,
+            10
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 459,
+          "protein": 11,
+          "carbs": 66,
+          "fat": 15
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Crema de zanahoria pasta integral con salsa",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Aurora sin nata",
+          "allergens": [
+            1,
+            3,
+            6,
+            10
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 417,
+          "protein": 10,
+          "carbs": 64,
+          "fat": 12
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Crema de zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con salsa aurora",
+          "allergens": [
+            1,
+            3,
+            6,
+            7,
+            10
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 459,
+          "protein": 11,
+          "carbs": 66,
+          "fat": 15
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Crema de zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Espirales con salsa aurora (sin gluten)",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 449,
+          "protein": 8,
+          "carbs": 68,
+          "fat": 14
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Crema de zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Espirales con salsa aurora (sin gluten)",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 491,
+          "protein": 9,
+          "carbs": 72,
+          "fat": 17
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Crema de zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Espirales con salsa aurora (sin gluten)",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": {
+          "name": "Sin nata",
+          "allergens": []
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 491,
+          "protein": 9,
+          "carbs": 72,
+          "fat": 17
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Crema de zanahoria pasta integral con salsa",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Aurora sin nata",
+          "allergens": [
+            1,
+            3,
+            6,
+            10
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 417,
+          "protein": 10,
+          "carbs": 64,
+          "fat": 12
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-07": {
+      "basal": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pollo con papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 28,
+          "carbs": 55,
+          "fat": 24
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 28,
+          "carbs": 55,
+          "fat": 24
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 28,
+          "carbs": 55,
+          "fat": 24
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 28,
+          "carbs": 55,
+          "fat": 24
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 28,
+          "carbs": 55,
+          "fat": 24
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 28,
+          "carbs": 55,
+          "fat": 24
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 28,
+          "carbs": 55,
+          "fat": 24
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 543,
+          "protein": 28,
+          "carbs": 58,
+          "fat": 26
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 543,
+          "protein": 28,
+          "carbs": 58,
+          "fat": 26
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Puré de brócoli",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas al ajillo",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 28,
+          "carbs": 55,
+          "fat": 24
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-08": {
+      "basal": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla española con ensalada",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 14,
+          "carbs": 64,
+          "fat": 15
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla española",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 14,
+          "carbs": 64,
+          "fat": 15
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla española",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 14,
+          "carbs": 64,
+          "fat": 15
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla española",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 14,
+          "carbs": 64,
+          "fat": 15
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla española",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 14,
+          "carbs": 64,
+          "fat": 15
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla española",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 14,
+          "carbs": 64,
+          "fat": 15
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla de harina de garbanzo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 476,
+          "protein": 12,
+          "carbs": 87,
+          "fat": 7
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla española",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 14,
+          "carbs": 69,
+          "fat": 18
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla de harina de garbanzo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 515,
+          "protein": 14,
+          "carbs": 69,
+          "fat": 18
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Potaje de verduras",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla española",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 14,
+          "carbs": 64,
+          "fat": 15
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-09": {
+      "basal": {
+        "first": {
+          "name": "Sopa de fideos, pollo y garbanzos",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo con ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 618,
+          "protein": 33,
+          "carbs": 39,
+          "fat": 35
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Sopa de fideos con pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 618,
+          "protein": 33,
+          "carbs": 39,
+          "fat": 35
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Sopa de fideos con pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pollo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 425,
+          "protein": 20,
+          "carbs": 39,
+          "fat": 20
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Sopa de fideos con pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 618,
+          "protein": 33,
+          "carbs": 39,
+          "fat": 35
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Sopa de fideos con pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 631,
+          "protein": 29,
+          "carbs": 51,
+          "fat": 33
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Sopa de fideos con pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 618,
+          "protein": 33,
+          "carbs": 39,
+          "fat": 35
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Sopa de fideos sin gluten con pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 618,
+          "protein": 33,
+          "carbs": 39,
+          "fat": 35
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Sopa de fideos sin gluten con pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 646,
+          "protein": 33,
+          "carbs": 42,
+          "fat": 38
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Sopa de fideos sin gluten con pollo",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta cgc25",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 646,
+          "protein": 33,
+          "carbs": 42,
+          "fat": 38
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Sopa de fideos con pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Bondiola de cerdo en adobo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 631,
+          "protein": 29,
+          "carbs": 51,
+          "fat": 33
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-13": {
+      "basal": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo con ensalada",
+          "allergens": []
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 477,
+          "protein": 19,
+          "carbs": 74,
+          "fat": 15
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 372,
+          "protein": 19,
+          "carbs": 48,
+          "fat": 10
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            1,
+            4,
+            9,
+            10,
+            11,
+            13
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 381,
+          "protein": 25,
+          "carbs": 42,
+          "fat": 11
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 381,
+          "protein": 25,
+          "carbs": 42,
+          "fat": 11
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            1,
+            4,
+            9,
+            10,
+            11,
+            13
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 381,
+          "protein": 25,
+          "carbs": 42,
+          "fat": 11
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 372,
+          "protein": 19,
+          "carbs": 48,
+          "fat": 10
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            1,
+            4,
+            9,
+            10,
+            11,
+            13
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 381,
+          "protein": 25,
+          "carbs": 42,
+          "fat": 11
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            1,
+            4,
+            9,
+            10,
+            11,
+            13
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 423,
+          "protein": 25,
+          "carbs": 46,
+          "fat": 14
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            1,
+            4,
+            9,
+            10,
+            11,
+            13
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 423,
+          "protein": 25,
+          "carbs": 46,
+          "fat": 14
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            1,
+            4,
+            9,
+            10,
+            11,
+            13
+          ]
+        },
+        "second": {
+          "name": "Muslo de pollo al tomillo cgc24",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 381,
+          "protein": 25,
+          "carbs": 42,
+          "fat": 11
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-14": {
+      "basal": {
+        "first": {
+          "name": "Crema de calabaza con manzana asada",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pasta integral con salsa boloñesa",
+          "allergens": [
+            1,
+            3,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 451,
+          "protein": 27,
+          "carbs": 43,
+          "fat": 17
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Crema de calabaza y manzana asada",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pasta boloñesa",
+          "allergens": [
+            1,
+            3,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 477,
+          "protein": 19,
+          "carbs": 74,
+          "fat": 15
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta boloñesa",
+          "allergens": [
+            1,
+            3,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 477,
+          "protein": 19,
+          "carbs": 74,
+          "fat": 15
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Crema de calabaza y manzana asada",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pasta boloñesa",
+          "allergens": [
+            1,
+            3,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 477,
+          "protein": 19,
+          "carbs": 74,
+          "fat": 15
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta boloñesa",
+          "allergens": [
+            1,
+            3,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 477,
+          "protein": 19,
+          "carbs": 74,
+          "fat": 15
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Crema de calabaza y manzana asada",
+          "allergens": []
+        },
+        "second": {
+          "name": "Pasta boloñesa",
+          "allergens": [
+            1,
+            3,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 477,
+          "protein": 19,
+          "carbs": 74,
+          "fat": 15
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "second": {
+          "name": "Espaguetti boloñesa (sin gluten)",
+          "allergens": [
+            6,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 472,
+          "protein": 16,
+          "carbs": 78,
+          "fat": 15
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "second": {
+          "name": "Espaguetti boloñesa (sin gluten)",
+          "allergens": [
+            6,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 514,
+          "protein": 16,
+          "carbs": 82,
+          "fat": 18
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "second": {
+          "name": "Espaguetti boloñesa (sin gluten)",
+          "allergens": [
+            6,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 514,
+          "protein": 16,
+          "carbs": 82,
+          "fat": 18
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Sopa de pescado con arroz",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta boloñesa",
+          "allergens": [
+            1,
+            3,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 477,
+          "protein": 19,
+          "carbs": 74,
+          "fat": 15
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-15": {
+      "basal": {
+        "first": {
+          "name": "Potaje de berros con judías pintas",
+          "allergens": []
+        },
+        "second": {
+          "name": "Filete de dorado con ajo y perejil con ensalada",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 13,
+          "carbs": 77,
+          "fat": 11
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 467,
+          "protein": 25,
+          "carbs": 43,
+          "fat": 20
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Dorado con ajo y perejil",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 451,
+          "protein": 27,
+          "carbs": 43,
+          "fat": 17
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Dorado con ajo y perejil",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 451,
+          "protein": 27,
+          "carbs": 43,
+          "fat": 17
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Dorado con ajo y perejil",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 451,
+          "protein": 27,
+          "carbs": 43,
+          "fat": 17
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pollo al ajillo",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 467,
+          "protein": 25,
+          "carbs": 43,
+          "fat": 20
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Dorado con ajo y perejil",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 451,
+          "protein": 27,
+          "carbs": 43,
+          "fat": 17
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Dorado con ajo y perejil",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 478,
+          "protein": 27,
+          "carbs": 46,
+          "fat": 19
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Dorado con ajo y perejil",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 478,
+          "protein": 27,
+          "carbs": 46,
+          "fat": 19
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Potaje de berros",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Dorado con ajo y perejil",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 451,
+          "protein": 27,
+          "carbs": 43,
+          "fat": 17
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-16": {
+      "basal": {
+        "first": {
+          "name": "Crema de puerro y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con papas, tomate y huevo",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 535,
+          "protein": 37,
+          "carbs": 45,
+          "fat": 22
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con huevo y tomate",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 13,
+          "carbs": 77,
+          "fat": 11
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con huevo y tomate",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 13,
+          "carbs": 77,
+          "fat": 11
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con huevo y tomate",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 13,
+          "carbs": 77,
+          "fat": 11
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con huevo y tomate",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 13,
+          "carbs": 77,
+          "fat": 11
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con huevo y tomate",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 13,
+          "carbs": 77,
+          "fat": 11
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con tomate",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 435,
+          "protein": 9,
+          "carbs": 76,
+          "fat": 8
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con huevo y tomate",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 521,
+          "protein": 13,
+          "carbs": 81,
+          "fat": 14
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con tomate",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 521,
+          "protein": 13,
+          "carbs": 81,
+          "fat": 14
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Crema de puerros y zanahoria",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Arroz con huevo y tomate",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa dado",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 13,
+          "carbs": 77,
+          "fat": 11
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-19": {
+      "basal": {
+        "first": {
+          "name": "Puré de hortalizas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta con nata y calabacín",
+          "allergens": [
+            1,
+            3,
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 416,
+          "protein": 8,
+          "carbs": 71,
+          "fat": 9
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con nata y calabacín",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 416,
+          "protein": 8,
+          "carbs": 71,
+          "fat": 9
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con nata y calabacín",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 416,
+          "protein": 8,
+          "carbs": 71,
+          "fat": 9
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con nata y calabacín",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 416,
+          "protein": 8,
+          "carbs": 71,
+          "fat": 9
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con aove y calabacín",
+          "allergens": [
+            6
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 434,
+          "protein": 7,
+          "carbs": 70,
+          "fat": 12
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con nata y calabacín",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 416,
+          "protein": 8,
+          "carbs": 71,
+          "fat": 9
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta sin gluten con nata con calabacín",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 416,
+          "protein": 8,
+          "carbs": 71,
+          "fat": 9
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta sin gluten con nata con calabacín",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 458,
+          "protein": 9,
+          "carbs": 76,
+          "fat": 12
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta sin gluten con aove con calabacín",
+          "allergens": [
+            6,
+            7
+          ]
+        },
+        "side": {
+          "name": "Sin nata",
+          "allergens": []
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 458,
+          "protein": 9,
+          "carbs": 76,
+          "fat": 12
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Crema de verduras",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con aove y calabacín",
+          "allergens": [
+            6
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 434,
+          "protein": 7,
+          "carbs": 70,
+          "fat": 12
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-20": {
+      "basal": {
+        "first": {
+          "name": "Potaje de alubias blancas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Dorado al horno con ensalada",
+          "allergens": []
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 566,
+          "protein": 31,
+          "carbs": 61,
+          "fat": 19
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pollo al horno",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 593,
+          "protein": 34,
+          "carbs": 62,
+          "fat": 20
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Merluza al horno",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 566,
+          "protein": 31,
+          "carbs": 61,
+          "fat": 19
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Merluza al horno",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 566,
+          "protein": 31,
+          "carbs": 61,
+          "fat": 19
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Merluza al horno",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 566,
+          "protein": 31,
+          "carbs": 61,
+          "fat": 19
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pollo al horno",
+          "allergens": []
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 593,
+          "protein": 34,
+          "carbs": 62,
+          "fat": 20
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Merluza al horno",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 566,
+          "protein": 31,
+          "carbs": 61,
+          "fat": 19
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Merluza al horno",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 608,
+          "protein": 31,
+          "carbs": 65,
+          "fat": 22
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Merluza al horno",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 608,
+          "protein": 31,
+          "carbs": 65,
+          "fat": 22
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Potaje de alubia blanca",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Merluza al horno",
+          "allergens": [
+            4
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 566,
+          "protein": 31,
+          "carbs": 61,
+          "fat": 19
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-21": {
+      "basal": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana con ensalada",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 457,
+          "protein": 13,
+          "carbs": 59,
+          "fat": 16
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana",
+          "allergens": [
+            3,
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 435,
+          "protein": 15,
+          "carbs": 45,
+          "fat": 19
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana sin jamón",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 457,
+          "protein": 13,
+          "carbs": 59,
+          "fat": 16
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana",
+          "allergens": [
+            3,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 457,
+          "protein": 13,
+          "carbs": 59,
+          "fat": 16
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana",
+          "allergens": [
+            3,
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 435,
+          "protein": 15,
+          "carbs": 45,
+          "fat": 19
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana",
+          "allergens": [
+            3,
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 435,
+          "protein": 15,
+          "carbs": 45,
+          "fat": 19
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana de harina de garbanzo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 460,
+          "protein": 11,
+          "carbs": 81,
+          "fat": 8
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana",
+          "allergens": [
+            3,
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 463,
+          "protein": 15,
+          "carbs": 48,
+          "fat": 21
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana de harina de garbanzo",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 463,
+          "protein": 15,
+          "carbs": 48,
+          "fat": 21
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Crema de acelgas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Tortilla paisana",
+          "allergens": [
+            3,
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 435,
+          "protein": 15,
+          "carbs": 45,
+          "fat": 19
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-22": {
+      "basal": {
+        "first": {
+          "name": "Caldo de arroz y huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo de cerdo en salsa de cebolla y manzana con papa emperejilada",
+          "allergens": [
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 542,
+          "protein": 32,
+          "carbs": 66,
+          "fat": 14
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Caldo de arroz y huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 542,
+          "protein": 32,
+          "carbs": 66,
+          "fat": 14
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Caldo de arroz y huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Pollo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 542,
+          "protein": 32,
+          "carbs": 66,
+          "fat": 14
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Caldo de arroz y huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 542,
+          "protein": 32,
+          "carbs": 66,
+          "fat": 14
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Caldo de arroz y huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 542,
+          "protein": 32,
+          "carbs": 66,
+          "fat": 14
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Caldo de arroz y huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 542,
+          "protein": 32,
+          "carbs": 66,
+          "fat": 14
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Caldo de arroz",
+          "allergens": [
+            1,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 606,
+          "protein": 33,
+          "carbs": 83,
+          "fat": 14
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Caldo de arroz y huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 584,
+          "protein": 33,
+          "carbs": 70,
+          "fat": 17
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Caldo de arroz y cilantro",
+          "allergens": [
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 584,
+          "protein": 33,
+          "carbs": 70,
+          "fat": 17
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Caldo de arroz y huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11
+          ]
+        },
+        "second": {
+          "name": "Lomo en salsa de cebolla y manzana",
+          "allergens": []
+        },
+        "side": {
+          "name": "Papas sancohadas",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 542,
+          "protein": 32,
+          "carbs": 66,
+          "fat": 14
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-23": {
+      "basal": {
+        "first": {
+          "name": "Sopa de pollo y fideos",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza de jamón y orégano con ensalada",
+          "allergens": [
+            1,
+            6,
+            7,
+            11
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 481,
+          "protein": 26,
+          "carbs": 61,
+          "fat": 13
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Sopa de pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza de jamón y queso",
+          "allergens": [
+            1,
+            6,
+            7,
+            11
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 481,
+          "protein": 26,
+          "carbs": 61,
+          "fat": 13
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Sopa de pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza margarita con orégano",
+          "allergens": [
+            1,
+            7,
+            11
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 417,
+          "protein": 20,
+          "carbs": 58,
+          "fat": 10
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Sopa de pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza de jamón y queso",
+          "allergens": [
+            1,
+            6,
+            7,
+            11
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 481,
+          "protein": 26,
+          "carbs": 61,
+          "fat": 13
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Sopa de pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza (sin queso) de jamón y atún",
+          "allergens": [
+            1,
+            4,
+            6,
+            11
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 467,
+          "protein": 21,
+          "carbs": 71,
+          "fat": 9
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Sopa de pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza de jamón y queso",
+          "allergens": [
+            1,
+            6,
+            7,
+            11
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 481,
+          "protein": 26,
+          "carbs": 61,
+          "fat": 13
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Sopa de pollo (sin gluten)",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza (sin gluten) de jamón y atún",
+          "allergens": [
+            4,
+            6,
+            7,
+            10
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 540,
+          "protein": 29,
+          "carbs": 69,
+          "fat": 15
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Sopa (sin gluten) de pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza (sin gluten) de jamón y atún",
+          "allergens": [
+            4,
+            6,
+            7,
+            10
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 551,
+          "protein": 30,
+          "carbs": 66,
+          "fat": 17
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Sopa (sin gluten) de pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza (sin gluten) de jamón y atún",
+          "allergens": [
+            4,
+            6,
+            7,
+            10
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta cgc25",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 551,
+          "protein": 30,
+          "carbs": 66,
+          "fat": 17
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Sopa de pollo",
+          "allergens": [
+            1,
+            3,
+            9
+          ]
+        },
+        "second": {
+          "name": "Pizza (sin queso) de jamón y atún",
+          "allergens": [
+            1,
+            4,
+            6,
+            11
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 467,
+          "protein": 21,
+          "carbs": 71,
+          "fat": 9
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-26": {
+      "basal": {
+        "first": {
+          "name": "Sopa minestrone",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Merluza a la portuguesa con papa sancochada y ensalada",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 437,
+          "protein": 19,
+          "carbs": 75,
+          "fat": 4
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Pollo en salsa papa emperejilada con",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 441,
+          "protein": 18,
+          "carbs": 59,
+          "fat": 13
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Merluza a la portuguesa papa emperejilada con",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 437,
+          "protein": 19,
+          "carbs": 75,
+          "fat": 4
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Sopa minestrone con arroz",
+          "allergens": []
+        },
+        "second": {
+          "name": "Merluza a la portuguesa papa emperejilada con",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 437,
+          "protein": 19,
+          "carbs": 75,
+          "fat": 4
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Merluza a la portuguesa papa emperejilada con",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 437,
+          "protein": 19,
+          "carbs": 75,
+          "fat": 4
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Pollo en salsa",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Papa emperejilada con verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 441,
+          "protein": 18,
+          "carbs": 59,
+          "fat": 13
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Merluza a la portuguesa papa emperejilada con",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 437,
+          "protein": 19,
+          "carbs": 75,
+          "fat": 4
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Merluza a la portuguesa papa emperejilada con",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 20,
+          "carbs": 79,
+          "fat": 7
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Merluza a la portuguesa papa emperejilada con",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 479,
+          "protein": 20,
+          "carbs": 79,
+          "fat": 7
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Sopa de verduras con arroz integral",
+          "allergens": [
+            9
+          ]
+        },
+        "second": {
+          "name": "Merluza a la portuguesa papa emperejilada con",
+          "allergens": [
+            4,
+            13
+          ]
+        },
+        "side": {
+          "name": "Verdura ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 437,
+          "protein": 19,
+          "carbs": 75,
+          "fat": 4
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-27": {
+      "basal": {
+        "first": {
+          "name": "Crema de calabacín",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral con tomate y huevo picado",
+          "allergens": [
+            1,
+            3,
+            4,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 20,
+          "carbs": 71,
+          "fat": 10
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral napolitana",
+          "allergens": [
+            1,
+            3,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "side": {
+          "name": "Huevo sancochado",
+          "allergens": [
+            3
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 20,
+          "carbs": 71,
+          "fat": 10
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral napolitana",
+          "allergens": [
+            1,
+            3,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "side": {
+          "name": "Huevo sancochado",
+          "allergens": [
+            3
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 20,
+          "carbs": 71,
+          "fat": 10
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral napolitana",
+          "allergens": [
+            1,
+            3,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "side": {
+          "name": "Huevo sancochado",
+          "allergens": [
+            3
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 20,
+          "carbs": 71,
+          "fat": 10
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral napolitana",
+          "allergens": [
+            1,
+            3,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "side": {
+          "name": "Huevo sancochado",
+          "allergens": [
+            3
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 20,
+          "carbs": 71,
+          "fat": 10
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral napolitana",
+          "allergens": [
+            1,
+            3,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "side": {
+          "name": "Huevo sancochado",
+          "allergens": [
+            3
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 20,
+          "carbs": 71,
+          "fat": 10
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta napolitana sin gluten",
+          "allergens": [
+            6,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 380,
+          "protein": 9,
+          "carbs": 74,
+          "fat": 3
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta napolitana sin gluten",
+          "allergens": [
+            6,
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Huevo sancochado",
+          "allergens": [
+            3
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 509,
+          "protein": 17,
+          "carbs": 79,
+          "fat": 12
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta napolitana sin gluten",
+          "allergens": [
+            6,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 509,
+          "protein": 17,
+          "carbs": 79,
+          "fat": 12
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Crema de calabacin",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Pasta integral napolitana",
+          "allergens": [
+            1,
+            3,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "side": {
+          "name": "Huevo sancochado",
+          "allergens": [
+            3
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 473,
+          "protein": 20,
+          "carbs": 71,
+          "fat": 10
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-28": {
+      "basal": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo con ensalada",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 482,
+          "protein": 36,
+          "carbs": 56,
+          "fat": 10
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 482,
+          "protein": 36,
+          "carbs": 56,
+          "fat": 10
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 477,
+          "protein": 35,
+          "carbs": 56,
+          "fat": 9
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 482,
+          "protein": 36,
+          "carbs": 56,
+          "fat": 10
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 482,
+          "protein": 36,
+          "carbs": 56,
+          "fat": 10
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 482,
+          "protein": 36,
+          "carbs": 56,
+          "fat": 10
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 482,
+          "protein": 36,
+          "carbs": 56,
+          "fat": 10
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 510,
+          "protein": 36,
+          "carbs": 59,
+          "fat": 12
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 510,
+          "protein": 36,
+          "carbs": 59,
+          "fat": 12
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Potaje de garbanzos",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Chopsuey de pavo",
+          "allergens": [
+            6,
+            9
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 482,
+          "protein": 36,
+          "carbs": 56,
+          "fat": 10
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-29": {
+      "basal": {
+        "first": {
+          "name": "Crema de zanahoria con pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella mixta",
+          "allergens": [
+            4,
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 528,
+          "protein": 14,
+          "carbs": 74,
+          "fat": 17
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella vegetal",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 459,
+          "protein": 9,
+          "carbs": 76,
+          "fat": 12
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella mixta",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 528,
+          "protein": 14,
+          "carbs": 74,
+          "fat": 17
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella mixta",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": {
+          "name": "Palitos crudité",
+          "allergens": []
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 528,
+          "protein": 14,
+          "carbs": 74,
+          "fat": 17
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella mixta",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 528,
+          "protein": 14,
+          "carbs": 74,
+          "fat": 17
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella vegetal",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 459,
+          "protein": 9,
+          "carbs": 76,
+          "fat": 12
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella mixta",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 528,
+          "protein": 14,
+          "carbs": 74,
+          "fat": 17
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella mixta",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 570,
+          "protein": 15,
+          "carbs": 79,
+          "fat": 20
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella mixta",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 570,
+          "protein": 15,
+          "carbs": 79,
+          "fat": 20
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Crema de zanahoria y pera asada",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Paella mixta",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 528,
+          "protein": 14,
+          "carbs": 74,
+          "fat": 17
+        },
+        "sourcePage": 10
+      }
+    },
+    "2026-10-30": {
+      "basal": {
+        "first": {
+          "name": "Potaje de judías pintas",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo con papas estilo \"Carne fiesta\"",
+          "allergens": [
+            9,
+            13
+          ]
+        },
+        "side": null,
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 622,
+          "protein": 44,
+          "carbs": 50,
+          "fat": 24
+        },
+        "sourcePage": 1
+      },
+      "sin-pescado": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo fiesta",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 622,
+          "protein": 44,
+          "carbs": 50,
+          "fat": 24
+        },
+        "sourcePage": 2
+      },
+      "sin-cerdo": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Estofado de verduras con huevo",
+          "allergens": [
+            1,
+            3,
+            9,
+            10,
+            11,
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 517,
+          "protein": 28,
+          "carbs": 51,
+          "fat": 19
+        },
+        "sourcePage": 3
+      },
+      "sin-frutos-secos": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo fiesta",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 622,
+          "protein": 44,
+          "carbs": 50,
+          "fat": 24
+        },
+        "sourcePage": 4
+      },
+      "sin-lacteos": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo fiesta",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 635,
+          "protein": 39,
+          "carbs": 62,
+          "fat": 22
+        },
+        "sourcePage": 5
+      },
+      "sin-pescado-marisco": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo fiesta",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 622,
+          "protein": 44,
+          "carbs": 50,
+          "fat": 24
+        },
+        "sourcePage": 6
+      },
+      "sin-huevo": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo fiesta",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 622,
+          "protein": 44,
+          "carbs": 50,
+          "fat": 24
+        },
+        "sourcePage": 7
+      },
+      "sin-gluten": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo fiesta",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Yogur natural",
+          "allergens": [
+            7
+          ]
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 650,
+          "protein": 44,
+          "carbs": 53,
+          "fat": 26
+        },
+        "sourcePage": 8
+      },
+      "sin-gluten-lacteos-huevo": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo fiesta",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta cgc25",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan sin gluten",
+          "allergens": [
+            6,
+            10,
+            12
+          ]
+        },
+        "nutrition": {
+          "kcal": 650,
+          "protein": 44,
+          "carbs": 53,
+          "fat": 26
+        },
+        "sourcePage": 9
+      },
+      "sin-lacteos-marisco": {
+        "first": {
+          "name": "Potaje de judias",
+          "allergens": [
+            13
+          ]
+        },
+        "second": {
+          "name": "Cerdo fiesta",
+          "allergens": [
+            13
+          ]
+        },
+        "side": {
+          "name": "Ensalada",
+          "allergens": [
+            13
+          ]
+        },
+        "dessert": {
+          "name": "Fruta",
+          "allergens": []
+        },
+        "bread": {
+          "name": "Pan integral",
+          "allergens": [
+            1
+          ]
+        },
+        "nutrition": {
+          "kcal": 635,
+          "protein": 39,
+          "carbs": 62,
+          "fat": 22
+        },
+        "sourcePage": 10
+      }
+    }
+  },
+  "reviewFlags": [
+    {
+      "date": "2026-10-27",
+      "type": "basal",
+      "message": "El menú basal declara pescado en la pasta (alérgeno 4), mientras las adaptaciones para el mismo plato no lo hacen. Confirmar con el comedor."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "sin-huevo",
+      "message": "La sopa descrita como «sin gluten» conserva alérgenos 1 y 3 impresos en el PDF; verificar con el comedor."
+    },
+    {
+      "date": "2026-10-06",
+      "type": "sin-gluten-lacteos-huevo",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Espirales con salsa aurora (sin gluten) (alérgeno(s) 7). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "sin-huevo",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Sopa de fideos sin gluten con pollo (alérgeno(s) 3). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "sin-gluten",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Sopa de fideos sin gluten con pollo (alérgeno(s) 1). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-13",
+      "type": "sin-gluten",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Sopa de pescado con arroz (alérgeno(s) 1). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-13",
+      "type": "sin-gluten-lacteos-huevo",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Sopa de pescado con arroz (alérgeno(s) 1). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-16",
+      "type": "sin-gluten-lacteos-huevo",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Arroz con tomate (alérgeno(s) 3). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-19",
+      "type": "sin-gluten-lacteos-huevo",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Pasta sin gluten con aove con calabacín (alérgeno(s) 7). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-22",
+      "type": "sin-gluten",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Caldo de arroz y huevo (alérgeno(s) 1). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-23",
+      "type": "sin-gluten",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Sopa (sin gluten) de pollo (alérgeno(s) 1). Contactar con el comedor antes de confiar en este menú."
+    },
+    {
+      "date": "2026-10-23",
+      "type": "sin-gluten-lacteos-huevo",
+      "message": "IMPORTANTE: la adaptación marcada en el PDF contiene códigos de alérgenos que parecen incompatibles: Sopa (sin gluten) de pollo (alérgeno(s) 1,3); Pizza (sin gluten) de jamón y atún (alérgeno(s) 7). Contactar con el comedor antes de confiar en este menú."
+    }
+  ],
+  "disclaimer": "Información transcrita del menú facilitado por el comedor. Puede sufrir modificaciones. Para alergias, confirmar siempre con el centro y el proveedor."
+}
