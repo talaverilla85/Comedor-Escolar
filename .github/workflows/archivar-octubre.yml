@@ -1,0 +1,35 @@
+name: Archivar PDF original de octubre 2026
+on:
+  push:
+    paths:
+      - '.github/workflows/archivar-octubre.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  archivar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recuperar PDF oficial de octubre
+        env:
+          PDF_URL: https://www3.gobiernodecanarias.org/medusa/edublog/ceipveintedeenero/wp-content/uploads/sites/598/2026/10/MENU-OCTUBRE-VEINTE-DE-ENERO.pdf
+        run: |
+          mkdir -p pdf-oficiales
+          curl --fail --location --retry 3 --max-time 90 "$PDF_URL" -o pdf-oficiales/2026-10-MENU-OCTUBRE-VEINTE-DE-ENERO.pdf
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('pdf-oficiales/2026-10-MENU-OCTUBRE-VEINTE-DE-ENERO.pdf')
+          assert p.read_bytes().startswith(b'%PDF'), 'Archivo descargado no es un PDF'
+          assert p.stat().st_size > 100_000, 'PDF demasiado pequeño'
+          print('PDF oficial verificado:',p.stat().st_size,'bytes')
+          PY
+      - name: Archivar y confirmar
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add pdf-oficiales/
+          if ! git diff --cached --quiet; then
+            git commit -m 'docs: archivar PDF original octubre 2026'
+            git push
+          fi
