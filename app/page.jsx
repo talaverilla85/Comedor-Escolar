@@ -48,10 +48,7 @@ export default function Home() {
  const dinner=useMemo(()=>dinnerSuggestion(meal),[meal]);
  const notices=findSpecialNotice(date,type);
  const mealAllergens=meal?Array.from(new Set(['first','second','side','dessert','bread'].flatMap(k=>meal[k]?.allergens||[]))).sort((a,b)=>a-b):[];
- const prevAvailable=dates.filter(d=>d<date).at(-1);
- const nextAvailable=dates.find(d=>d>date);
  function jump(day){setDate(day);setDialog(null);}
- function goAvailable(direction){const next=direction<0?prevAvailable:nextAvailable;if(next)jump(next)}
  function goToWeek(direction){
    const targetWeek=getWeek(addDays(date,direction*7));
    const selectedIndex=week.indexOf(date);
@@ -85,15 +82,10 @@ export default function Home() {
        <div className="main-column">
          <section className="menu-panel" aria-label="Menú del día">
            <div className="menu-topline">
-             <div className="menu-top-left"><div className="icon-shell"><CalendarDays size={21}/></div><div><span className="section-kicker">EN LA BANDEJA</span><h2>{formatDate(date)}</h2></div></div>
+             <div className="menu-top-left"><button type="button" className="icon-shell calendar-trigger" onClick={()=>setMonthOpen(v=>!v)} aria-expanded={monthOpen} aria-controls="menu-calendar-picker" aria-label="Elegir una fecha" title="Elegir una fecha"><CalendarDays size={21}/></button><div><span className="section-kicker">EN LA BANDEJA</span><h2>{formatDate(date)}</h2></div></div>
              <span className={`day-chip ${isToday?'chip-today':''}`}>{isToday?'● Hoy':meal?'Menú publicado':date.endsWith('-12')?'Festivo':'Sin menú publicado'}</span>
            </div>
-           <div className="date-navigation">
-             <button className="nav-circle" disabled={!prevAvailable} onClick={()=>goAvailable(-1)} aria-label="Día anterior con menú"><ChevronLeft size={22}/></button>
-             <button className="date-heading" onClick={()=>setMonthOpen(v=>!v)} aria-expanded={monthOpen}><CalendarRange size={17}/>{formatDate(date,{day:'numeric',month:'long',year:'numeric'})}<ChevronDown size={15}/></button>
-             <button className="nav-circle" disabled={!nextAvailable} onClick={()=>goAvailable(1)} aria-label="Siguiente día con menú"><ChevronRight size={22}/></button>
-           </div>
-           {monthOpen&&<div className="date-picker-wrap"><label htmlFor="selected-day">Ir a una fecha</label><input id="selected-day" type="date" value={date} onChange={e=>{if(e.target.value)jump(e.target.value)}}/><button onClick={()=>{jump(firstDateToShow());setMonthOpen(false)}}>Volver a hoy</button></div>}
+           {monthOpen&&<div className="date-picker-wrap" id="menu-calendar-picker"><label htmlFor="selected-day">Ir a una fecha</label><input id="selected-day" type="date" value={date} onChange={e=>{if(e.target.value){jump(e.target.value);setMonthOpen(false)}}}/><button type="button" onClick={()=>{jump(firstDateToShow());setMonthOpen(false)}}>Volver a hoy</button></div>
            <nav className="week-navigation" aria-label="Cambiar de semana">
              <button type="button" className="week-nav-arrow" onClick={()=>goToWeek(-1)}
                aria-label="Semana anterior" title="Semana anterior"><ChevronLeft size={20}/></button>
