@@ -99,4 +99,29 @@ napkin = (xx > 42) & (xx < 120) & (yy > 75) & (yy < 202)
 neutral = (rgb.max(2).astype(int)-rgb.min(2).astype(int)<18) & (rgb.min(2)>190)
 rgba[napkin & neutral, :3] = (244,244,241)
 save("cubiertos",rgba)
+
+# Create truly transparent solids for the two large food wells. The legacy
+# images contain a painted grey checkerboard: use chroma to isolate the food,
+# close interior gaps, and keep the contours rather than showing the grid.
+# IMPORTANT: dessert resources are deliberately untouched.
+SOLIDS = (
+    "pasta-tomate", "pasta-cremosa", "arroz-paella", "tortilla",
+    "pizza", "pollo", "pavo", "cerdo", "pescado-blanco", "atun",
+    "ensalada", "papas",
+)
+for name in SOLIDS:
+    rgba = get(name)
+    rgb = rgba[:,:,:3].astype(np.int16)
+    chroma = rgb.max(2) - rgb.min(2)
+    fg = np.uint8((chroma > 17) & (rgba[:,:,3] > 5)) * 255
+    fg = cv2.morphologyEx(fg, cv2.MORPH_CLOSE, np.ones((7,7),np.uint8))
+    contours, _ = cv2.findContours(fg, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    mask = np.zeros(fg.shape,dtype=np.uint8)
+    for contour in contours:
+        if cv2.contourArea(contour) > 40:
+            cv2.drawContours(mask, [contour], -1, 255, -1)
+    mask = cv2.dilate(mask, np.ones((3,3),np.uint8))
+    rgba[:,:,3] = cv2.GaussianBlur(mask,(3,3),.6)
+    save(name,rgba)
+
 print(f"Processed {len(list(OUT.glob('*.png')))} assets into {OUT}")
