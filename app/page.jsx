@@ -35,6 +35,15 @@ export default function Home() {
  const meal=menus[date]?.[type]||null;
  const isToday=mounted&&date===dateInCanaries();
  const week=useMemo(()=>getWeek(date),[date]);
+ const weekRange=useMemo(()=>{
+   const first=week[0],last=week[4];
+   const a=Number(first.slice(8)),b=Number(last.slice(8));
+   const ma=formatDate(first,{month:'long'}),mb=formatDate(last,{month:'long'});
+   const ya=first.slice(0,4),yb=last.slice(0,4);
+   if(ma===mb && ya===yb)return `Semana del ${a} al ${b} de ${mb}`;
+   if(ya===yb)return `Semana del ${a} de ${ma} al ${b} de ${mb}`;
+   return `Semana del ${a} de ${ma} de ${ya} al ${b} de ${mb} de ${yb}`;
+ },[week]);
  const red=menuType.kind==='allergy';
  const dinner=useMemo(()=>dinnerSuggestion(meal),[meal]);
  const notices=findSpecialNotice(date,type);
@@ -43,6 +52,13 @@ export default function Home() {
  const nextAvailable=dates.find(d=>d>date);
  function jump(day){setDate(day);setDialog(null);}
  function goAvailable(direction){const next=direction<0?prevAvailable:nextAvailable;if(next)jump(next)}
+ function goToWeek(direction){
+   const targetWeek=getWeek(addDays(date,direction*7));
+   const selectedIndex=week.indexOf(date);
+   const sameWeekday=targetWeek[selectedIndex<0?0:selectedIndex];
+   const target=menus[sameWeekday]?sameWeekday:(targetWeek.find(d=>menus[d])||targetWeek[0]);
+   jump(target);
+ }
  async function shareMenu(){
    const title=`Mi Bandeja · ${formatDate(date)}`;
    const text=`${school}\n${formatDate(date)} · ${menuType.label}\n1º ${meal?.first?.name||'-'}\n2º ${meal?.second?.name||'-'}\n${meal?.side?.name||''}`;
@@ -78,7 +94,17 @@ export default function Home() {
              <button className="nav-circle" disabled={!nextAvailable} onClick={()=>goAvailable(1)} aria-label="Siguiente día con menú"><ChevronRight size={22}/></button>
            </div>
            {monthOpen&&<div className="date-picker-wrap"><label htmlFor="selected-day">Ir a una fecha</label><input id="selected-day" type="date" value={date} onChange={e=>{if(e.target.value)jump(e.target.value)}}/><button onClick={()=>{jump(firstDateToShow());setMonthOpen(false)}}>Volver a hoy</button></div>}
-           <div className="week-strip" role="group" aria-label="Días de la semana">
+           <nav className="week-navigation" aria-label="Cambiar de semana">
+             <button type="button" className="week-nav-arrow" onClick={()=>goToWeek(-1)}
+               aria-label="Semana anterior" title="Semana anterior"><ChevronLeft size={20}/></button>
+             <div className="week-navigation-label" aria-live="polite">
+               <CalendarRange size={17} aria-hidden="true"/>
+               <strong>{weekRange}</strong>
+             </div>
+             <button type="button" className="week-nav-arrow" onClick={()=>goToWeek(1)}
+               aria-label="Semana siguiente" title="Semana siguiente"><ChevronRight size={20}/></button>
+           </nav>
+           <div className="week-strip" role="group" aria-label={weekRange}>
              {week.map((day,i)=>{
                const hasMenu=!!menus[day],active=day===date;
                return <button type="button" key={day} className={`week-day ${active?'week-active':''} ${!hasMenu?'week-empty':''}`} onClick={()=>jump(day)} aria-pressed={active} title={!hasMenu?'Menú no publicado':'Ver menú'}><span>{DOW[i]}</span><strong>{Number(day.slice(-2))}</strong><i>{hasMenu?'•':'–'}</i></button>
