@@ -85,7 +85,7 @@ export default function Home() {
              <div className="menu-top-left"><button type="button" className="icon-shell calendar-trigger" onClick={()=>setMonthOpen(v=>!v)} aria-expanded={monthOpen} aria-controls="menu-calendar-picker" aria-label="Elegir una fecha" title="Elegir una fecha"><CalendarDays size={21}/></button><div><span className="section-kicker">EN LA BANDEJA</span><h2>{formatDate(date)}</h2></div></div>
              <span className={`day-chip ${isToday?'chip-today':''}`}>{isToday?'● Hoy':meal?'Menú publicado':date.endsWith('-12')?'Festivo':'Sin menú publicado'}</span>
            </div>
-           {monthOpen&&<div className="date-picker-wrap" id="menu-calendar-picker"><label htmlFor="selected-day">Ir a una fecha</label><input id="selected-day" type="date" value={date} onChange={e=>{if(e.target.value){jump(e.target.value);setMonthOpen(false)}}}/><button type="button" onClick={()=>{jump(firstDateToShow());setMonthOpen(false)}}>Volver a hoy</button></div>
+           {monthOpen&&<div className="date-picker-wrap" id="menu-calendar-picker"><label htmlFor="selected-day">Ir a una fecha</label><input id="selected-day" type="date" value={date} onChange={e=>{if(e.target.value){jump(e.target.value);setMonthOpen(false)}}}/><button type="button" onClick={()=>{jump(firstDateToShow());setMonthOpen(false)}}>Volver a hoy</button></div>}
            <nav className="week-navigation" aria-label="Cambiar de semana">
              <button type="button" className="week-nav-arrow" onClick={()=>goToWeek(-1)}
                aria-label="Semana anterior" title="Semana anterior"><ChevronLeft size={20}/></button>
