@@ -93,3 +93,26 @@
 .tray-photo-open .tray-dessert-target{z-index:5}
 .tray-photo-open .photo-tray-bread{z-index:5}
 .tray-photo-open .photo-tray-cutlery{display:none}
+
+
+/* Navegación por semanas: cabecera centrada justo encima de L–V. */
+.week-navigation{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:17px;
+  background:#f4f9ff;border:1px solid #e0edf8;border-radius:13px;padding:8px 10px}
+.week-navigation-label{display:flex;align-items:center;justify-content:center;gap:8px;min-width:0;
+  color:#355b7b;text-align:center}
+.week-navigation-label svg{color:#5499d1;flex:0 0 auto}
+.week-navigation-label strong{font:800 13px/1.35 'Nunito',sans-serif}
+.week-nav-arrow{width:34px;height:34px;flex:0 0 34px;border-radius:50%;
+  display:grid;place-items:center;background:#fff;color:#357fbd;border:1px solid #d9e9f5;
+  transition:background .15s ease}
+.week-nav-arrow:hover{background:#e5f2ff}
+.week-nav-arrow:focus-visible{outline:3px solid #5ea4ef;outline-offset:2px}
+.week-navigation+.week-strip{margin-top:9px}
+@media(max-width:520px){
+ .week-navigation{gap:5px;padding:7px;margin-top:14px}
+ .week-navigation-label{gap:5px}
+ .week-navigation-label strong{font-size:12px;line-height:1.25}
+ .week-navigation-label svg{width:15px;height:15px}
+ .week-nav-arrow{width:30px;height:30px;flex-basis:30px}
+ .week-navigation+.week-strip{margin-top:8px}
+}
