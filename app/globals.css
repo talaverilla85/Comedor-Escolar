@@ -75,3 +75,21 @@
 .photo-tray-cutlery{left:35%;top:18%;width:29%;height:69%;transform:none;z-index:6;filter:drop-shadow(0 1px 2px #15364b44)}
 .photo-tray-hit:focus-visible{outline:3px solid #1c689a;outline-offset:-2px}
 @media(max-width:520px){.mi-bandeja-photo{border-radius:5px}.tray-hint{font-size:10px}}
+
+
+/* V8: true holes (SVG photo mask) for the first and second courses.
+   Dessert zone remains untouched; water increased without touching its well. */
+.tray-photo-open{position:relative;overflow:hidden;background:transparent;
+  filter:drop-shadow(0 10px 11px rgba(30,78,119,.16))}
+.tray-open-svg{position:absolute;inset:0;width:100%;height:100%;z-index:1;display:block;pointer-events:none}
+.tray-photo-open .tray-water-bigger{left:7%;top:7%;width:25%;height:36%;z-index:5}
+.tray-photo-open .tray-water-bigger img{width:100%;height:100%;object-fit:contain}
+.tray-open-first-hit,.tray-open-second-hit{position:absolute;z-index:4;border:0;padding:0;
+  background:transparent;cursor:pointer}
+.tray-open-first-hit{left:51.3%;top:7.5%;width:41.5%;height:45%;border-radius:28% 20% 18% 26%}
+.tray-open-second-hit{left:7.8%;top:42%;width:46.5%;height:48%;border-radius:24% 20% 25% 20%}
+.tray-open-first-hit:focus-visible,.tray-open-second-hit:focus-visible{
+  outline:3px solid #1f669d;outline-offset:-3px}
+.tray-photo-open .tray-dessert-target{z-index:5}
+.tray-photo-open .photo-tray-bread{z-index:5}
+.tray-photo-open .photo-tray-cutlery{display:none}
