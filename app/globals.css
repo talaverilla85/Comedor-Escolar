@@ -116,3 +116,10 @@
  .week-nav-arrow{width:30px;height:30px;flex-basis:30px}
  .week-navigation+.week-strip{margin-top:8px}
 }
+
+/* Calendario compacto: solo cabecera de día + semanas. El icono abre fecha concreta. */
+.calendar-trigger{border:0;flex:0 0 auto;cursor:pointer;transition:background .15s ease,transform .15s ease}
+.calendar-trigger:hover,.calendar-trigger[aria-expanded="true"]{background:#d7ebff;transform:translateY(-1px)}
+.calendar-trigger:focus-visible{outline:3px solid #5ea4ef;outline-offset:2px}
+.menu-topline + .week-navigation{margin-top:20px}
+.menu-topline + .date-picker-wrap + .week-navigation{margin-top:12px}
